@@ -1,0 +1,60 @@
+# ---- 本地环境 / 浏览器（勿上传）----
+.venv/
+venv/
+env/
+.playwright-browsers/
+
+# ---- 登录态 / 隐私（勿上传）----
+.sessions/
+*.cookie
+cookie.txt
+cookies.json
+storage_state.json
+session_meta.json
+
+# ---- 下载产物 ----
+downloads/
+*.part
+found_items.json
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+*.log
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地私密配置 ----
+.env
+.env.*
+!.env.example
+config.json
+secrets.*
